@@ -1,0 +1,23 @@
+{
+  "name": "lazy_loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build assets/vendors/tailwindcss/src/main.css -o assets/vendors/tailwindcss/dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MezianeKhalil/lazy_loading.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MezianeKhalil/lazy_loading/issues"
+  },
+  "homepage": "https://github.com/MezianeKhalil/lazy_loading#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
