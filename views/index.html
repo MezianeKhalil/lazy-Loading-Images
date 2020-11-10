@@ -23,7 +23,55 @@
      <!-- title -->
      <title>lazy loading</title>
  </head>
-<body>
-    <h1>this is heading</h1>
+<body class="font-Poppins">
+    <!-- header -->
+    <header class="h-screen">
+        <div class="container mx-auto flex justify-items-center items-center h-full">
+            <div>
+                <h1 class="text-gray-900 text-center font-extrabold text-5xl capitalize mb-6">lazy loading images</h1>
+                <p class="text-gray-800 text-lg px-8 md:px-16 font-medium w-full lg:w-4/6 mx-auto text-center leading-8">Images are amongst the most common culprits of poor performance in websites,this can have a huge impact on load times and potentially make the website unusable.
+                To get around this, developers typically resort to lazy loading, a technique that comprises of sending a tiny temporary image with the initial payload, In practice, this means that users don’t have to wait for a large asset to be downloaded before they start seeing content on the screen, which is an improvement in perceived performance.
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- show -->
+        <section class="">
+            <img data-src="../assets/libs/images/img-1.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+        <section class="">
+            <img data-src="../assets/libs/images/img-2.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+        <section class="">
+            <img data-src="../assets/libs/images/img-3.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+        <section class="">
+            <img data-src="../assets/libs/images/img-4.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+        <section class="">
+            <img data-src="../assets/libs/images/img-5.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+        <section class="">
+            <img data-src="../assets/libs/images/img-6.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+        <section class="">
+            <img data-src="../assets/libs/images/img-7.jpg" alt="" class="w-full h-full" width="100vw" height="100vh">
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="h-screen">
+        <div class="container mx-auto flex justify-items-center items-center h-full">
+            <div>
+                <h1 class="text-gray-900 text-center font-extrabold text-5xl capitalize mb-6">the end</h1>
+                <p class="text-gray-800 text-lg px-8 md:px-16 font-medium w-full lg:w-4/6 mx-auto text-center leading-8">
+                    Images are amongst the most common culprits of poor performance in websites,this can have a huge impact on load times and potentially make the website unusable.
+                    To get around this, developers typically resort to lazy loading, a technique that comprises of sending a tiny temporary image with the initial payload, In practice, this means that users don’t have to wait for a large asset to be downloaded before they start seeing content on the screen, which is an improvement in perceived performance.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/libs/scripts/app.js"></script>
 </body>
 </html>
